@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a very basic REST API built with Ruby on Rails, providing basic CRUD functionality for a collection of articles.
 
-Things you may want to cover:
+### Article Model
 
-* Ruby version
+Validation to make sure each article has a title and a body.
 
-* System dependencies
+### Article Controller
 
-* Configuration
+Sets up functions from Creating, Reading, Updating, and Deleting articles.
 
-* Database creation
+### Routes.rb
 
-* Database initialization
+Establishes route to hit to gain access to endpoints.
 
-* How to run the test suite
+### Database seeder
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Using Faker gem, simply enter rails db:seed to generate 5 random articles with a title and a body.
